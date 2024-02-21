@@ -1,0 +1,156 @@
+*
+{
+  margin: 0;
+  padding: 0;box-sizing: content-box;
+}
+body
+{
+  font-family: "Cinzel", serif;
+  background: rgb(2, 16, 26);
+}
+/* HEADER */
+header
+{
+  background: rgba(255, 255, 255,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+header .img1
+{
+   
+  display: flex;
+  flex-wrap: wrap;
+}
+header .img1 img
+{
+  height: 53px;
+  width: 51px;
+}
+header .nav 
+{
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 15px;
+}
+header .nav li
+{
+  color: ghostwhite;
+  list-style-type:  none;
+  display: inline-block;
+  text-align: center;
+   margin: 0px 20px;
+}
+header .nav li a
+{
+  text-decoration: none;
+  color: ghostwhite;
+}
+.toggle
+{
+  display: none;
+}
+@media(max-width:500px)
+{
+ .toggle
+ {
+  display:block;
+  color: white;
+  margin-left:350px ;
+  float:  right;
+ } 
+ header .nav ul
+ {
+   display: flex;
+   flex-direction: column;  
+ }
+ header .nav ul li
+ {
+    margin: 20px 0px;
+ }
+}
+@media(max-width:445px)
+{
+ .toggle
+ {
+  display:block;
+  color: white;
+  margin-left:300px ;
+  float:  right;
+ } 
+ header .nav ul
+ {
+   display: flex;
+   flex-direction: column;  
+ }
+ header .nav ul li
+ {
+    margin: 17px 0px;
+ }
+}
+@media(max-width:390px)
+{
+ .toggle
+ {
+  display:block;
+  color: white;
+  margin-left:250px ;
+  float:  right;
+ } 
+ header .nav ul
+ {
+   display: flex;
+   flex-direction: column;
+ }
+ header .nav ul li
+ {
+    margin: 14px 0px; 
+ }
+}
+@media(max-width:344px)
+{
+ .toggle
+ {
+  display:block;
+  color: white;
+  margin-left:200px ;
+  float:  right;
+ } 
+ header .nav ul
+ {
+   display: flex;
+   flex-direction: column;  
+ }
+ header .nav ul li
+ {
+    margin: 12px 0px;  
+ }
+}
+@media(max-width:286px)
+{
+ .toggle
+ {
+  display:block;
+  color: white;
+  margin-left:150px ;
+  float:  right;
+ } 
+ header .nav ul
+ {
+   display: flex;
+   flex-direction: column;    
+ }
+ header .nav ul li
+ {
+    margin: 9px 0px;
+ }
+}
+.nav ul.show
+{
+  left: 0;
+}
+ 
